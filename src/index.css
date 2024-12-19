@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: white;
+    font-family: gilroy;
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.contact-list::-webkit-scrollbar{
+    display: none;
+}
